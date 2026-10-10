@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Tip Calculator",
   description:
     "Calculate a tip, split a bill, and see what each person owes. Free, private, and instant — the math stays on your device.",
+  verification: {
+    google: "ZfVkyPRpMLlmJZtAOBMI_iJtiLwA55NUvxDJfQ5o59E",
+  },
 };
 
 export const viewport: Viewport = {
