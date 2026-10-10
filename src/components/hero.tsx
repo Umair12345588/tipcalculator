@@ -17,9 +17,20 @@ export function Hero() {
       <h1 className="mx-auto max-w-3xl font-headline-lg text-headline-lg tracking-tight text-on-surface md:font-display-lg md:text-display-lg">
         Calculate the perfect tip in seconds.
       </h1>
-      <p className="mx-auto mt-space-sm mb-space-lg max-w-2xl font-body-lg text-body-lg text-secondary">
+      <p className="mx-auto mt-space-sm max-w-2xl font-body-lg text-body-lg text-secondary">
         Quickly calculate tips, split bills, and see exactly what everyone owes with real-time accuracy and zero
         clutter.
+      </p>
+      <p className="mx-auto mt-space-sm mb-space-lg font-body-lg text-body-lg text-secondary">
+        <a
+          href="https://tipcalcul.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary underline decoration-primary/30 underline-offset-2 transition-colors hover:text-primary-container hover:decoration-primary focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        >
+          tipcalcul.com
+          <span className="sr-only"> (opens in a new tab)</span>
+        </a>
       </p>
       <div className="flex flex-wrap items-center justify-center gap-x-space-md gap-y-space-xs font-label-md text-label-md text-on-surface-variant">
         {TRUST.map((item, index) => (
